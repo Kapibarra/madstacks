@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import MenuToggle from "../UI/MenuToggle";
 import classes from "./Header.module.css";
-import logo from "../../svg/orig.svg"
+import logo from "../../svg/logo.svg"
 import Button from "../UI/Buttons/Button";
 
 

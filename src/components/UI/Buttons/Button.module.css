@@ -9,6 +9,7 @@ a {
 }
 
 .glitchBtn {
+    max-width: 200px;
     display: block;
     margin-top: 25px;
     transform: translate(10%, 10%);
@@ -22,7 +23,7 @@ a {
 
 .glitchBtn:hover:before {
     background: #4e4e4e;
-    transform: translateX(2250%) scaleX(50) scaleY(0.2);
+    transform: translateX(2550%) scaleX(50) scaleY(0.2);
 }
 
 .glitchBtn:before {

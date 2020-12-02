@@ -1,0 +1,51 @@
+.mainBlock {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding: 15px;
+    width: 100%;
+    max-width: 1330px;
+    padding-top: 200px;
+    margin-bottom: 200px;
+}
+
+@media(max-width: 768px) {
+    .mainBlock {
+        width: 100%;
+        max-width: 700px;
+    }
+}
+
+
+/* .glitchBtn:before {
+    left: -2% !important;
+} */
+
+.articleBlock {
+    width: 50%;
+}
+
+.Logo {
+    box-sizing: border-box;
+    width: 100%;
+    justify-content: center;
+    padding-left: 25px;
+    padding-top: 50px;
+}
+
+.titleText {
+    color: rgb(211, 253, 246);
+    padding-top: 15px;
+}
+
+.titleSubText {
+    color: rgb(211, 253, 246);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.article {
+    color: rgb(211, 253, 246);
+    padding-bottom: 25px;
+}

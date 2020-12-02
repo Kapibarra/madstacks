@@ -3,18 +3,24 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 100px;
-    background: rgb(17, 17, 17)
+    height: 150px;
+    z-index: 1000;
+    background-color: #17171d;
 }
 
 .Logo {
     margin: 0 auto;
     font-size: 50px;
-    height: 180px;
+    height: 85%;
     width: 100%;
     max-width: 200px;
     color: aliceblue;
     padding: 10px;
     display: flex;
     justify-content: center;
+}
+
+.sticky {
+    position: fixed;
+    z-index: 1000;
 }
