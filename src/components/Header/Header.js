@@ -1,22 +1,18 @@
-import React from "react";
+import React, { Fragment } from "react";
+import MenuToggle from "../UI/MenuToggle";
 import classes from "./Header.module.css";
+import logo from "../../svg/orig.svg"
+import Button from "../UI/Buttons/Button";
+
 
 const Header = () => {
   return (
+    <Fragment>
     <div className={classes.Header}>
-      <div className={classes.Logo}>Logo</div>
-      <div className={classes.Navigation}>
-        <a href="/" className={classes.NavLink}>1</a>
-        <a href="/" className={classes.NavLink}>1</a>
-        <a href="/" className={classes.NavLink}>1</a>
-        <a href="/" className={classes.NavLink}>1</a>
-      </div>
-      <div className={classes.Contacts}>
-         <div>34523452345</div>
-          <div>4526234563</div>
-          <div>45634563456</div>
-      </div>
+    <img src={logo} alt="My logo" className={classes.Logo}></img>
     </div>
+    <MenuToggle />
+    </Fragment>
   );
 };
 

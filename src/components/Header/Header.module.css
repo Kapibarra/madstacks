@@ -8,30 +8,13 @@
 }
 
 .Logo {
+    margin: 0 auto;
     font-size: 50px;
+    height: 180px;
     width: 100%;
-    max-width: 100px;
+    max-width: 200px;
     color: aliceblue;
     padding: 10px;
     display: flex;
     justify-content: center;
-}
-
-.Navigation {
-    display: flex;
-    justify-content: center;
-}
-
-.NavLink {
-    padding: 10px;
-    padding-top: 25px;
-    color: aqua;
-    width: 150px;
-    text-align: center;
-}
-
-.Contacts {
-    padding: 5px;
-    display: block;
-    color: white
 }
