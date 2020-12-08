@@ -42,7 +42,7 @@ const Card = () => {
         </div>
       </div>
       <div className={classes.Wrapper}>
-      <Button name="Заказать услугу" link="/"/>
+      <Button name="Заказать" link="/"/>
       </div>
     </React.Fragment>
   );

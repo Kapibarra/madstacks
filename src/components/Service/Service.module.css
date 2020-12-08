@@ -1,0 +1,48 @@
+.ServiceWrapper {
+    width: 100%;
+    max-width: 1330px;
+    margin: 0 auto;
+    margin-top: 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+.ServiceText {
+    margin-top: 5px;
+}
+
+.ServiceTitle {
+    font-size: 36px;
+    color: rgb(211, 253, 246);
+    padding-top: 15px;
+}
+
+li {
+    list-style: none;
+}
+
+li::before {
+    content: '';
+    display: inline-block;
+    margin-top: 5px;
+    padding-right: 5px;
+    height: 20px;
+    width: 20px;
+    background-image: url(../../svg/listyleimg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px;
+    z-index: 100000;
+}
+
+.ServiceText {
+    font-size: 20px;
+    color: rgb(211, 253, 246);
+}
+
+.ServiceImage {
+    display: block;
+    padding-top: 30px;
+    width: 100%;
+    max-width: 700px;
+}

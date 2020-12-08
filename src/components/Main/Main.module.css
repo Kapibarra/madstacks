@@ -13,26 +13,23 @@
 @media(max-width: 768px) {
     .mainBlock {
         width: 100%;
-        max-width: 700px;
+        max-width: 600px;
     }
 }
-
-
-/* .glitchBtn:before {
-    left: -2% !important;
-} */
 
 .articleBlock {
     padding-top: 150px;
     width: 50%;
+    max-width: 600px;
+    padding-right: 65px;
 }
 
 .Logo {
     box-sizing: border-box;
     width: 100%;
-    justify-content: center;
-    padding-left: 125px;
-    padding-top: 50px;
+    max-width: 700px;
+    /* padding-left: 75px; */
+    padding-top: 30px;
 }
 
 .titleText {
@@ -49,4 +46,5 @@
 .article {
     color: rgb(211, 253, 246);
     padding-bottom: 25px;
+    max-width: 500px;
 }
