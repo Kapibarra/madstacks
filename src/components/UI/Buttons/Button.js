@@ -8,7 +8,6 @@ return (
   <div className={classes.text}>{props.name}</div>
   <div className={classes.mask}><span>{props.name}</span></div>
  </a>
- 
 )
 }
 
