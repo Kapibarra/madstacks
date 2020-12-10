@@ -3,7 +3,6 @@ import Card from "../../components/Cards/Card";
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
 import Main from "../../components/Main/Main";
-import Portfolio from "../../components/Portfolio/Portfolio";
 import Service from "../../components/Service/Service";
 import classes from "./Layout.module.css";
 
@@ -16,7 +15,6 @@ class Layout extends Component {
         <Service />
         <Main />
         <Card />
-        <Portfolio />
         <Footer />
       </div>
     );
