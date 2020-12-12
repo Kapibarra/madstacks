@@ -18,21 +18,7 @@
 }
 
 li {
-    list-style: none;
-}
-
-li::before {
-    content: '';
-    display: inline-block;
-    margin-top: 5px;
-    padding-right: 5px;
-    height: 20px;
-    width: 20px;
-    background-image: url(../../svg/listyleimg.png);
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-size: 20px;
-    z-index: 100000;
+    list-style: circle;
 }
 
 .ServiceText {
