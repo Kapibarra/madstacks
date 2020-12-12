@@ -1,5 +1,7 @@
 .Card {
     margin: 30px;
+    width: 50%;
+    max-width: 600px;
     padding: 10px;
     background-color: #0f0f0f;
     color: rgb(211, 253, 246);
