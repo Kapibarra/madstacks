@@ -3,6 +3,7 @@
     box-sizing: border-box;
     margin: 0 auto;
     text-align: center;
-    padding: 30px;
+    padding: 60px;
+    padding-bottom: 10px;
     color: aliceblue;
 }
