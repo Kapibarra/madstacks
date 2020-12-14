@@ -2,10 +2,15 @@
 
 .awssld__wrapper {
     margin: 0 auto;
-    background-color: aliceblue;
     max-width: 1200px;
     height: 70% !important;
-    max-height: 800px;
+    max-height: 600px;
 }
 
-.awssld__bullets {}
+.awssld__content {
+    max-height: 800px !important;
+}
+
+.awssld {
+    --content-background-color: #17171d !important;
+}

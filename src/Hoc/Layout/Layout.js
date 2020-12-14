@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Card from "../../components/Cards/Card";
+import Contacts from "../../components/Contacts/Contacts";
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
 import Main from "../../components/Main/Main";
@@ -17,6 +18,7 @@ class Layout extends Component {
         <Main />
         <Card />
         <Slider />
+        <Contacts />
         <Footer />
       </div>
     );

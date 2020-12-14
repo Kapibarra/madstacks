@@ -1,3 +1,17 @@
+import React from "react"
+import classes from "./ContactItem.module.css"
+
+const ContactItem = (props) => {
+return (
 <div className={classes.ContactItem}>
-<img className={classes.ContactImage}></img>
-<div className={classes.ContactName}></div>
+<div className={classes.ContactName}>
+<img className={classes.ContactImage} src={props.img} alt="#"></img>
+<div className={classes.ContactText}>
+{props.name}
+</div>
+</div>
+</div>
+)
+}
+
+export default ContactItem
