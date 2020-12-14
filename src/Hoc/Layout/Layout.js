@@ -7,19 +7,26 @@ import Main from "../../components/Main/Main";
 import Slider from "../../components/Portfolio/Portfolio";
 import Service from "../../components/Service/Service";
 import classes from "./Layout.module.css";
+import { BrowserRouter as Router, Switch,Redirect, withRouter, Route} from "react-router-dom";
 
 
 class Layout extends Component {
   render() {
     return (
       <div className={classes.Layout}>
-        <Header />
-        <Service />
-        <Main />
-        <Card />
-        <Slider />
-        <Contacts />
-        <Footer />
+         <Switch>
+        <Route path="/" exact>
+          <Header />
+          <Service />
+          <Main />
+          <Footer />
+        </Route>
+        <Route path="/portfolio" >
+          <Header />
+          <Slider />
+          <Footer />
+        </Route>
+      </Switch>
       </div>
     );
   }

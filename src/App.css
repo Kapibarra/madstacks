@@ -2,14 +2,14 @@
 
 .awssld__wrapper {
     margin: 0 auto;
-    max-width: 1200px;
-    height: 70% !important;
-    max-height: 600px;
+    max-width: 1468px;
+    height: 100% !important;
 }
 
-.awssld__content {
+
+/* .awssld__content {
     max-height: 800px !important;
-}
+} */
 
 .awssld {
     --content-background-color: #17171d !important;
