@@ -1,3 +1,8 @@
+*:focus {
+    outline: none;
+}
+
+
 /*slider*/
 
 .awssld__wrapper {
@@ -14,3 +19,15 @@
 .awssld {
     --content-background-color: #17171d !important;
 }
+
+.bm-item {
+    display: block !important;
+}
+
+
+/* 
+react-burger-menu-btn:focus {
+    outline-color: #17171d;
+    outline-style: auto;
+    outline-width: 0px;
+} */

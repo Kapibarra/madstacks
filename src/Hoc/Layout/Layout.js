@@ -26,6 +26,12 @@ class Layout extends Component {
           <Slider />
           <Footer />
         </Route>
+        <Route path="/contacts" >
+          <Header />
+          <Contacts />
+          <Card />
+          <Footer />
+        </Route>
       </Switch>
       </div>
     );

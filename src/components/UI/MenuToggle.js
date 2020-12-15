@@ -1,5 +1,5 @@
 import React from 'react'
-import classes from './MenuToggle.module.css'
+import {NavLink} from 'react-router-dom'
 import { slide as Menu } from 'react-burger-menu'
 import Button from './Buttons/Button';
 
@@ -58,9 +58,15 @@ class MenuToggle extends React.Component {
   render () {
     return (
       <Menu styles={styles}>
+      <NavLink to="/">
       <Button name="О Нас"/>
+      </NavLink>
+      <NavLink to="/portfolio">
       <Button name="Портфолио"/>
+      </NavLink>
+      <NavLink to="/contacts">
       <Button name="Контакты"/>
+      </NavLink>
       </Menu>
     );
   }
