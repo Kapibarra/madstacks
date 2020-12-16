@@ -13,7 +13,10 @@ import Image5 from "../../svg/5.jpeg"
 const Slider = () => {
     return (
     <AwesomeSlider >
-    <div className={classes.Slide}><img src={Image1} alt="$"/></div>
+    <div className={classes.Slide}><img src={Image1} alt="$"/>
+    <span className={classes.SlideText}> text text tex tex textextextext</span>
+    </div>
+    
     <div className={classes.Slide}><img src={Image2} alt="$"/></div>
     <div className={classes.Slide}><img src={Image3} alt="$"/></div>
     <div className={classes.Slide}><img src={Image4} alt="$"/></div>

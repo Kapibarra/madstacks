@@ -8,13 +8,12 @@
 .awssld__wrapper {
     margin: 0 auto;
     max-width: 1468px;
-    height: 100% !important;
+    height: 95vh !important;
 }
 
-
-/* .awssld__content {
-    max-height: 800px !important;
-} */
+.awssld_bullets {
+    bottom: -30px !important;
+}
 
 .awssld {
     --content-background-color: #17171d !important;
@@ -23,11 +22,3 @@
 .bm-item {
     display: block !important;
 }
-
-
-/* 
-react-burger-menu-btn:focus {
-    outline-color: #17171d;
-    outline-style: auto;
-    outline-width: 0px;
-} */
