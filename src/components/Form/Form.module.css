@@ -71,4 +71,8 @@ label {
     background-color: rgb(223, 252, 250);
 }
 
-.FormButton {}
+.FormButton {
+    display: inline-block;
+    margin: 0 auto;
+    margin-left: -25px;
+}

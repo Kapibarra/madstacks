@@ -48,7 +48,7 @@ const Form = () => {
               />
             </div>
             <div className={classes.FormButton} >
-            <Button name="Отправить" />
+            <Button name="Отправить" type="submit"/>
             </div>
           </form>
         </div>
