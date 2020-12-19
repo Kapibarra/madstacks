@@ -51,20 +51,36 @@ var styles = {
 }
 
 class MenuToggle extends React.Component {
+  constructor (props) {
+    super(props)
+    this.state = {
+      menuOpen: false
+    }
+  }
   showSettings (event) {
     event.preventDefault();
+  }
+  closeMenu () {
+    this.setState({menuOpen: false})
+  }
+  handleStateChange (state) {
+    this.setState({menuOpen: state.isOpen})  
   }
 
   render () {
     return (
-      <Menu styles={styles}>
-      <NavLink to="/">
-      <Button name="Главная"/>
+      <Menu 
+      styles={styles}
+      isOpen={this.state.menuOpen}
+      onStateChange={(state) => this.handleStateChange(state)}
+      >
+      <NavLink to="/" onClick={() => this.closeMenu()}>
+      <Button name="Главная" />
       </NavLink>
-      <NavLink to="/portfolio">
+      <NavLink to="/portfolio" onClick={() => this.closeMenu()}>
       <Button name="Портфолио"/>
       </NavLink>
-      <NavLink to="/contacts">
+      <NavLink to="/contacts" onClick={() => this.closeMenu()}>
       <Button name="Контакты"/>
       </NavLink>
       </Menu>

@@ -1,11 +1,12 @@
 import React from 'react'
+import Button from '../UI/Buttons/Button'
 import classes from './Form.module.css'
 
 const Form = () => {
     return (
         <div className={classes.FormContainer}>
         <div className={classes.FormTitle} id="signup">
-          <a className={classes.FormTitleText} > Оставить заявку на звонок</a>
+          <span className={classes.FormTitleText} > Оставить заявку на звонок</span>
         </div>
         <div className={classes.FormSubtitle}>
           <span className={classes.FormSubtitle}> <i>Заполните форму и Мы свяжемся с Вами. </i></span>
@@ -18,7 +19,7 @@ const Form = () => {
               <input
                 type="text"
                 name="name"
-                class="form-control"
+                className={classes.FormControl}
                 id=""
                 placeholder="Ваше имя"
                 required
@@ -29,7 +30,7 @@ const Form = () => {
               <input
                 name="phone"
                 type="text"
-                class="form-control"
+                className={classes.FormControl}
                 id=""
                 placeholder="+7 999 999 99 99"
                 required
@@ -40,11 +41,14 @@ const Form = () => {
               <input
                 type="text"
                 name="email"
-                class="form-control"
+                className={classes.FormControl}
                 id=""
                 placeholder="Ваш @email"
                 required
               />
+            </div>
+            <div className={classes.FormButton} >
+            <Button name="Отправить" />
             </div>
           </form>
         </div>
