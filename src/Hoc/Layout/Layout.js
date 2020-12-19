@@ -7,7 +7,7 @@ import Main from "../../components/Main/Main";
 import Slider from "../../components/Portfolio/Portfolio";
 import Service from "../../components/Service/Service";
 import classes from "./Layout.module.css";
-import { BrowserRouter as Router, Switch,Redirect, withRouter, Route} from "react-router-dom";
+import { BrowserRouter as  Switch, Route} from "react-router-dom";
 import Form from "../../components/Form/Form";
 
 
