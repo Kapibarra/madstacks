@@ -16,7 +16,6 @@ const Slider = () => {
     <div className={classes.Slide}><img src={Image1} alt="$"/>
     <span className={classes.SlideText}> text text tex tex textextextext</span>
     </div>
-    
     <div className={classes.Slide}><img src={Image2} alt="$"/></div>
     <div className={classes.Slide}><img src={Image3} alt="$"/></div>
     <div className={classes.Slide}><img src={Image4} alt="$"/></div>

@@ -15,7 +15,7 @@ const Form = () => {
           <form action="formspee" method="POST">
             <legend className={classes.FormTitleMini}>Связаться с нами.</legend>
             <div className={classes.FormGroup}>
-              <label for="user_name" >Введите ваше имя</label>
+              <label htmlFor="user_name" >Введите ваше имя</label>
               <input
                 type="text"
                 name="name"
@@ -26,7 +26,7 @@ const Form = () => {
               />
             </div>
             <div className={classes.FormGroup}>
-              <label for="user_phone">Введите ваш телефон</label>
+              <label htmlFor="user_phone">Введите ваш телефон</label>
               <input
                 name="phone"
                 type="text"
@@ -37,7 +37,7 @@ const Form = () => {
               />
             </div>
             <div className={classes.FormGroup}>
-              <label for="user_email">Введите ваше @email</label>
+              <label htmlFor="user_email">Введите ваше @email</label>
               <input
                 type="text"
                 name="email"
