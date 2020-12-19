@@ -8,6 +8,7 @@ import Slider from "../../components/Portfolio/Portfolio";
 import Service from "../../components/Service/Service";
 import classes from "./Layout.module.css";
 import { BrowserRouter as Router, Switch,Redirect, withRouter, Route} from "react-router-dom";
+import Form from "../../components/Form/Form";
 
 
 class Layout extends Component {
@@ -24,12 +25,13 @@ class Layout extends Component {
         <Route path="/portfolio" >
           <Header />
           <Slider />
+          <Card />
           <Footer />
         </Route>
         <Route path="/contacts" >
           <Header />
           <Contacts />
-          <Card />
+          <Form />
           <Footer />
         </Route>
       </Switch>

@@ -59,7 +59,7 @@ class MenuToggle extends React.Component {
     return (
       <Menu styles={styles}>
       <NavLink to="/">
-      <Button name="О Нас"/>
+      <Button name="Главная"/>
       </NavLink>
       <NavLink to="/portfolio">
       <Button name="Портфолио"/>
