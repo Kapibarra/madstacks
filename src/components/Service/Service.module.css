@@ -5,6 +5,8 @@
     margin-top: 400px;
     display: flex;
     flex-direction: row;
+    box-sizing: border-box;
+    padding: 15px;
 }
 
 .ServiceText {

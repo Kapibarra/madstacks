@@ -11,10 +11,12 @@ a {
 .glitchBtn {
     max-width: 200px;
     display: block;
+    color: rgb(211, 253, 246);
     margin-top: 25px;
     transform: translate(10%, 10%);
     font-size: 36px;
     transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+    cursor: pointer;
 }
 
 .glitchBtn:hover {
